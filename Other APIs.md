@@ -1,0 +1,12 @@
+| Broad category      | Sub category       | Library module              | API                              | Description                                                                                          |
+| ------------------- | ------------------ | --------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Data pre-processing | Feature extraction | sklearn.feature\_extraction | FeatureHasher                    | Computes the column corresponding to feature names using a hashing technique                         |
+| Data pre-processing | Feature extraction | sklearn.feature\_extraction | image                            | To extract features from image data                                                                  |
+| Data pre-processing | Feature extraction | sklearn.feature\_extraction | text                             | To extract features from text data                                                                   |
+| Data pre-processing | Feature extraction | sklearn.impute              | MissingIndicator                 | To identify missing values in the matrix                                                             |
+| Data pre-processing | Feature Selection  | sklearn.feature\_selection  | SelectFpr                        | Use p values of a false positive rate test                                                           |
+| Data pre-processing | Feature Selection  | sklearn.feature\_selection  | SelectFdr                        | Use p values of an estimated false discovery rate test                                               |
+| Data pre-processing | Feature Selection  | sklearn.feature\_selection  | SelectFwe                        | Use p values of a family wise error rate test (false discovery rate of a series of hypothesis tests) |
+| Data pre-processing | Feature selection  | sklearn.feature\_selection  | mutual\_info\_regression/classif | Estimates the mutual information between the feature and the target                                  |
+| Data pre-processing | Feature selection  | sklearn.feature\_selection  | chi2                             | Computes chi squared statistics between feature and labels (measure of independence)                 |
+| Data pre-processing | Feature selection  | sklearn.feature\_selection  | f\_regression/classif            | Computes the f-statistic                                                                             |
