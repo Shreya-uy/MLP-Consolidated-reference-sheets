@@ -12,9 +12,23 @@ The sklearn APIs covered in the lectures are summarised under 4 categories
 <ol>- evaluation </ol>
 <ol>- otherrelatedAPIs - These are APIs needed to understand other/APIs or referred to infrequently in the lectures</ol>
 
-For sklearn API details, please use ?help followed by API name on google colab.
+The dataset is provided to you as a link in the question. For loading the data onto google colab use either of the following:
 
-For common regression & classification API names replace the term regression/regressor by classification/classif (Indicated in the sheet).
+Option 1:
+Download the file and upload it to google colab (Using upload option under the folder icon in left panel). 
+Please note this will have to be re-uploaded with every runtime restart. 
 
+Option 2:
+Download the file and save it onto your google drive. Run the below code to fetch the file from the drive:
+
+from google.colab import drive
+drive.mount('/content/drive')
+path ='/content/drive/MyDrive/"filepath"' (Replace filepath by the relevant location)
+data = pd.read_csv(path)
+  
+For sklearn API details, please use ?help followed by the API name on google colab.
+
+For common regression & classification API names replace the term regression/regressor by classification/classif (Indicated in the sheet). 
+  
 </body>
 </html>
