@@ -13,3 +13,6 @@ p.sub-head{
 color: grey;
 font-style: italic;
 }
+
+p.code{
+font-family: "Arial", sans-serif}
