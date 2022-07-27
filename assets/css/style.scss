@@ -1,4 +1,9 @@
----
----
-
-@import "{{ site.theme }}";
+head {
+  font-family: "Courier New", monospace;
+}
+body {
+  font-family: "Courier New", monospace;
+}
+p {
+  margin-left: 30px;
+}
