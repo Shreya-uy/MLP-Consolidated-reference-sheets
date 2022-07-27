@@ -1,9 +1,9 @@
 head {
-  font-family: "Courier New", monospace;
+  font-family: "Garamond", monospace;
 }
 body {
-  font-family: "Courier New", monospace;
+  font-family: "Garamond", monospace;
 }
-p {
-  margin-left: 30px;
+body {
+  margin-left: 10px;
 }
